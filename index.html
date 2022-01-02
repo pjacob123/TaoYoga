@@ -31,7 +31,7 @@
             border: solid pink;
         }
     </style>
--->
+
 <style>
     .container {
         border:solid blue;
@@ -46,7 +46,7 @@
         border: solid pink;
     }
 </style>
-   
+-->   
 </head>
 
 <body>
@@ -61,18 +61,21 @@
         </div>
     </header>
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
-        <div class="collapse navbar-collapse" id="nucampNavbar">
-            <span>
-                <a href="taoYoga.html"><img src="img/LogoSmall.png" height="70" width="70" class="image-fluid " /></a>
-            </span>
-            <ul class="navbar-nav">
-                <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i>Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-address-card fa-lg"></i>About Us</a></li>
-                <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-usd fa-lg"></i>Pricing</a></li>
-            </ul>
-            <span class=ml-auto>
-                <a href="#" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Book Now</a>
-            </span>
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="img/LogoSmall.png" height="70" width="70" class="image-fluid" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#taoYogaNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="taoYogaNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i>Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-address-card fa-lg"></i>About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-usd fa-lg"></i>Pricing</a></li>
+                </ul>
+                <span class="navbar-text ml-auto">
+                    <a href="#" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Book Now</a>
+                </span>
+            </div>
         </div>
     </nav>
     <!-- carousel start--> 
