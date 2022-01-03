@@ -1,7 +1,6 @@
 {
   "name": "taoyoga",
   "version": "1.0.0",
-  "description": "",
   "main": "index.html",
   "dependencies": {
     "bootstrap": "^4.5.2",
@@ -26,5 +25,6 @@
   "bugs": {
     "url": "https://github.com/pjacob123/TaoYoga/issues"
   },
-  "homepage": "https://github.com/pjacob123/TaoYoga#readme"
+  "homepage": "https://github.com/pjacob123/TaoYoga#readme",
+  "description": ""
 }
